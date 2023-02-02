@@ -5,7 +5,8 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <div>
-    <h1 style="font-size: 100px">我是你爹！！！</h1>
+    <img src="./assets/a.png" alt="">
+    <h1 style="font-size: 100px">我是你爹！！！ --龚少竹</h1>
   </div>
 </template>
 
