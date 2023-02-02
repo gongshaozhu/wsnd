@@ -5,11 +5,24 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <div>
-    <img src="./assets/a.png" alt="">
-    <h1 style="font-size: 100px">我是你爹！！！ --龚少竹</h1>
+    <img src="./assets/a.png" alt="" @click="click">
+    <h1 style="font-size: 100px">{{d}}</h1>
   </div>
 </template>
-
+<script>
+export default {
+  data: () => {
+    return {
+      d: ''
+    }
+  },
+  methods: {
+    click() {
+      this.d = '我是你爹！！！ --龚少竹'
+    }
+  }
+}
+</script>
 <style scoped>
 
 </style>
